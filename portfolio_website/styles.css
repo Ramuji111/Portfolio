@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the entire page */
+    color: #e0e0e0; /* Light grey text color */
+}
+
+header {
+    background-color: #1f1f1f; /* Slightly lighter dark color for the header */
+    color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #333; /* Dark border around the profile picture */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffab00; /* Amber color for the name to stand out */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #ffab00; /* Amber color for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1f1f1f; /* Slightly lighter dark color for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #ffab00; /* Amber color for section headings */
+    border-bottom: 2px solid #ffab00;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #1f1f1f; /* Slightly lighter dark color for the footer */
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #82b1ff; /* Light blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
